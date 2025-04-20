@@ -1,0 +1,81 @@
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  
+    .header {
+      background-color: #343a40;
+      padding: 1px 20px;
+      color: white;
+      font-size: 18px;
+    }
+    
+    .content{
+      padding: 30px 41px;
+  
+    }
+  
+    .top-bar input[type="text"] {
+      padding: 8px 12px;
+      width: 600px;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+    }
+    
+    .top-bar button {
+      padding: 8px 14px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      color: white;
+      cursor: pointer; 
+    }
+    
+    .top-bar .search-btn {
+      background-color: #007bff;
+    }
+    
+    .top-bar #newBookBtn {
+      background-color: #28a745;
+    }
+    
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #dee2e6;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    .bookDetailsBtn{
+      color: #0512ce;
+      background-color: #f2f4f7;
+      border-color: #635ae2;
+      border-radius: 5px;
+    }
+    
+    .bookUpdateBtn{
+      color: #d3a314;
+      background-color: #f5f4f0;
+      border-color: #ffc107;
+      border-radius: 5px;
+    }
+    
+    .delete-btn{
+      color: #dc3545;
+      background-color: #ffffff;
+      border-color: #dc3545;
+     border-radius: 5px;
+    }
+    
