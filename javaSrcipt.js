@@ -10,25 +10,51 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//for Book Details
+//for Book Details(For Multiple Buttons with Same Class)
 document.addEventListener("DOMContentLoaded", function () {
-  const newBookBtn = document.getElementById("bookDetailsBtn");
+  const detailBtns = document.querySelectorAll(".bookDetailsBtn");
 
-  newBookBtn.addEventListener("click", function () {
-    window.location.href = "book-details.html";
+  detailBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      window.location.href = "book-details.html";
+    });
   });
 });
+
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const newBookBtn = document.getElementById("bookDetailsBtn");
+
+//   newBookBtn.addEventListener("click", function () {
+//     window.location.href = "book-details.html";
+//   });
+// });
 
 
 
 //for Update
 document.addEventListener("DOMContentLoaded", function () {
-  const newBookBtn = document.getElementById("bookUpdateBtn");
+  const detailBtns = document.querySelectorAll(".bookUpdateBtn");
 
-  newBookBtn.addEventListener("click", function () {
-    window.location.href = "book-update.html";
+  detailBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      window.location.href = "book-update.html";
+    });
   });
 });
+
+
+
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const newBookBtn = document.getElementById("bookUpdateBtn");
+
+//   newBookBtn.addEventListener("click", function () {
+//     window.location.href = "book-update.html";
+//   });
+// });
 
 
 
