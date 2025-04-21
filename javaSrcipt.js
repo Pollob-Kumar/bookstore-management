@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+          //  for one button(Use id)
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const newBookBtn = document.getElementById("bookDetailsBtn");
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+          //  for one button(Use id)
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const newBookBtn = document.getElementById("bookUpdateBtn");
@@ -59,9 +61,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 //for delete button
-// var b = window.confirm("Are you sure your want to delete");
-// document.getElementById("confirmWindow").textContent=b;
+
 function confirmWindow(ppp)
       {
           window.confirm("Are you sure you want to delete",ppp);
       }
+
+// var b = window.confirm("Are you sure your want to delete");
+// document.getElementById("confirmWindow").textContent=b; 
+
+
+// start new-book .............
+
+    
+
+
+
+//  for back button
+document.addEventListener("DOMContentLoaded", function () {
+  const newBookBtn = document.querySelector(".back");
+
+  newBookBtn.addEventListener("click", function () {
+    window.location.href = "index.html";
+  });
+});
+
+
+
+
+// start book-details
+
+
+//  for back button
+document.addEventListener("DOMContentLoaded", function () {
+  const newBookBtn = document.querySelector(".back-1");
+
+  newBookBtn.addEventListener("click", function () {
+    window.location.href = "index.html";
+  });
+});
